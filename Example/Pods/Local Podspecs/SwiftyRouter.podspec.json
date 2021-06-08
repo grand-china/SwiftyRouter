@@ -1,0 +1,25 @@
+{
+  "name": "SwiftyRouter",
+  "version": "0.1.0",
+  "summary": "Swift Module Router Center",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/grandchinamass@gmail.com/SwiftyRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "grandchinamass@gmail.com": "gychaobest@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/grandchinamass@gmail.com/SwiftyRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "source_files": "SwiftyRouter/Classes/**/*",
+  "swift_version": "5.0"
+}

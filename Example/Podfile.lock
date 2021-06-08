@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyRouter (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyRouter (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyRouter: b9a4de0a8427c340227eeb20c613c75f1706cb0b
+
+PODFILE CHECKSUM: 68e9f6ea8026dbeb014d30b07ad077956db10853
+
+COCOAPODS: 1.10.1
