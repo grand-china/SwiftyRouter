@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SwiftyRouter_Example' do
+  pod 'SwiftyRouter', :path => '../'
+
+  target 'SwiftyRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
