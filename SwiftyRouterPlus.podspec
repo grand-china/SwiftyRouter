@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     
     s.name = 'SwiftyRouterPlus'
-    s.version = '1.0.0'
+    s.version = '1.0.2'
     s.license = 'MIT'
     s.summary = 'Swift Module Router Center'
     s.homepage = 'https://github.com/grand-china/SwiftyRouter'
