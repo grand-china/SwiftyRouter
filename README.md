@@ -1,4 +1,4 @@
-# SwiftyRouter
+# SwiftyRouterPlus
 
 ## Purpose
 Module decoupling
@@ -66,7 +66,7 @@ SwiftyRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SwiftyRouter'
+pod 'SwiftyRouterPlus'
 ```
 
 ## Author
