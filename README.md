@@ -1,15 +1,64 @@
 # SwiftyRouter
 
-[![CI Status](https://img.shields.io/travis/grandchinamass@gmail.com/SwiftyRouter.svg?style=flat)](https://travis-ci.org/grandchinamass@gmail.com/SwiftyRouter)
-[![Version](https://img.shields.io/cocoapods/v/SwiftyRouter.svg?style=flat)](https://cocoapods.org/pods/SwiftyRouter)
-[![License](https://img.shields.io/cocoapods/l/SwiftyRouter.svg?style=flat)](https://cocoapods.org/pods/SwiftyRouter)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftyRouter.svg?style=flat)](https://cocoapods.org/pods/SwiftyRouter)
+## Purpose
+Module decoupling
+
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+### 1. define  your service
+
+```swift
+class DemoSeveice: SwiftyService {
+    
+    required init() {}
+    
+    var routers: [String] {
+        return [ "path/user/info"]
+    }
+    
+    func listen(router: String, parameter: Any?, complete: ((Any?) -> Void)?) {
+        if router == "path/user/info" {
+            complete?("rsp>info")
+        }
+    }
+}
+```
+
+### 2. use it
+
+```swift
+
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        self.service = DemoSeveice(register: true)
+}
+
+```
+
+### 3. access service
+
+```swift
+
+func doSomething() {
+	requestService("path/user/info", parameter: "uid") { [weak self] rspData in
+		print(rspData)
+	}
+}
+
+```
+
+
 
 ## Requirements
+
+```
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.12'
+  s.tvos.deployment_target = '10.0'
+  s.watchos.deployment_target = '3.0'
+```
 
 ## Installation
 
@@ -22,7 +71,7 @@ pod 'SwiftyRouter'
 
 ## Author
 
-grandchinamass@gmail.com, gychaobest@foxmail.com
+TopMan
 
 ## License
 

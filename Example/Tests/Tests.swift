@@ -1,5 +1,4 @@
 import XCTest
-import SwiftyRouter
 
 class Tests: XCTestCase {
     
