@@ -1,16 +1,16 @@
 PODS:
-  - SwiftyRouter (0.1.0)
+  - SwiftyRouterPlus (1.0.0)
 
 DEPENDENCIES:
-  - SwiftyRouter (from `../`)
+  - SwiftyRouterPlus (from `../`)
 
 EXTERNAL SOURCES:
-  SwiftyRouter:
+  SwiftyRouterPlus:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyRouter: b9a4de0a8427c340227eeb20c613c75f1706cb0b
+  SwiftyRouterPlus: 5744c9798b66428bc956827f3040293d80857c2d
 
-PODFILE CHECKSUM: 68e9f6ea8026dbeb014d30b07ad077956db10853
+PODFILE CHECKSUM: 6e21b309e09db253eea566b3ee5735ea8c1560d1
 
 COCOAPODS: 1.10.1

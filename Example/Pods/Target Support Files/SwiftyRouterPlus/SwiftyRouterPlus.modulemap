@@ -1,0 +1,6 @@
+framework module SwiftyRouterPlus {
+  umbrella header "SwiftyRouterPlus-umbrella.h"
+
+  export *
+  module * { export * }
+}

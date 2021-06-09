@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SwiftyRouter
+## SwiftyRouterPlus
 
 Copyright (c) 2021 grandchinamass@gmail.com <gychaobest@foxmail.com>
 

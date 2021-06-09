@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     
-    s.name = 'SwiftyRouter'
+    s.name = 'SwiftyRouterPlus'
     s.version = '1.0.0'
     s.license = 'MIT'
     s.summary = 'Swift Module Router Center'
